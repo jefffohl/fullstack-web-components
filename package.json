@@ -92,7 +92,8 @@
     "test:e2e:open": "cypress open",
     "test:snapshot": "npm test web-components-storyshots.test.js",
     "test:e2e:ci": "start-server-and-test storybook http://localhost:6006 test:e2e",
-    "test:snapshot:ci": "start-server-and-test storybook http://localhost:6006 test:snapshot"
+    "test:snapshot:ci": "start-server-and-test storybook http://localhost:6006 test:snapshot",
+    "ts": "npx tsc --watch"
   },
   "private": true,
   "workspaces": [
