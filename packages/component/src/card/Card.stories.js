@@ -1,6 +1,20 @@
 import './Card';
 export default {
     title: 'Components/Card',
+    argTypes: {
+        image: {
+            control: { type: 'text' },
+        },
+        headline: {
+            control: { type: 'text' },
+        },
+        content: {
+            control: { type: 'text' },
+        },
+        link: {
+            control: { type: 'text' },
+        },
+    },
 };
 const PrimaryTemplate = ({ image, headline, content, link }) => `
 <in-card>
